@@ -1,0 +1,65 @@
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+    position: relative;
+
+}
+.container{
+    max-width: 550px;
+    color: white;
+    flex-direction: column;
+    
+    
+}
+img{
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+h1{
+    font-weight: 500;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orange;
+}
+/* video page styling */
+video{
+    width: 90%;
+}
+
+i{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+.video-container{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.disappear{
+    display: none;
+}
+
+
+
+
+
+
+
